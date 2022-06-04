@@ -390,7 +390,8 @@ nav ul li ul li a:hover {
 
 .atraccion {
     width: auto;
-    height: 300px;
+    *height: 30rem;
+    height: 50vh;
     padding: 1rem 1rem;
     display: flex;
     justify-content: center;
@@ -400,10 +401,10 @@ nav ul li ul li a:hover {
 }
 
 .atraccion img {
-    width: 80%;
+    width: 100%;
     height: 100%;
     box-shadow: 0px 0px 10px rgb(240, 52, 52);
-    border-radius: 10px;
+    border-radius: 100%;
 }
 
 
@@ -492,7 +493,7 @@ nav ul li ul li a:hover {
     height: 6.25rem;
     font-weight: 400;
     text-align: center;
-    padding-top: 10rem;
+    padding-top: 1rem;
     font-size: 50px;
 }
 
