@@ -98,6 +98,7 @@ html {
 
 
 
+/* ------------------------------------------------------------------------------------------------------------------ */
 
 body {
     border-radius: 2rem;
@@ -157,19 +158,13 @@ body {
     flex-wrap: wrap;
     padding: 0px 20px;
     gap: 2rem;
-    color: rgb(63, 85, 78);
+    color: rgb(13, 238, 167);
     font-size: 1.5rem;
 }
 
-
-
 /* Header Inferior Barra Menu */
 
-
-
-
-
-.liLogo {
+/* .liLogo {
     display: flex;
     align-items: center;
     align-content: center;
@@ -178,7 +173,7 @@ body {
     position: relative;
     height: 100%;
     width: fit-content;
-}
+} */
 
 .logo {
     width: fit-content;
@@ -191,25 +186,25 @@ body {
 }
 
 .logo:hover {
-    transform: scale(1.2);
+    transform: scale(1);
     transition-property: all;
     transition-duration: 1.5s;
     border-radius: .2rem;
-    background: #023877;
-    box-shadow: 0px 0px 10px 0px rgba(221, 24, 24, 0.5);
+    background: #babbbd;
+    box-shadow: 0px 0px 10px 0px rgba(252, 1, 1, 0.729);
 }
 
 /* Class activa la ubicacion en donde estamos en la botonera del header y el sub menu */
 
-/* .active {
-    transform: scale(1.1);
+.active {
+    transform: scale(1);
     opacity: 0.6;
     pointer-events: none;
-    background: #023877;
+    background: #babbbd;
     color: rgb(255, 0, 0);
     box-shadow: 0px 0px 10px 0px rgba(165, 48, 48, 0.5);
     border-radius: .2rem;
-} */
+}
 
 /*Header Inferior Barra Menu--> SUBMENU de Galeria de Fotos  */
 
@@ -500,15 +495,7 @@ nav ul li ul li a:hover {
         height: 2rem;
     }
 
-    .email {
-        display: none;
-    }
-
-    .cellphone {
-        display: none;
-    }
-
-    .search {
+    .delete {
         display: none;
     }
 
@@ -556,7 +543,7 @@ nav ul li ul li a:hover {
         display: none;
     }
 
-    .search {
+    .delete {
         display: none;
     }
 
@@ -591,9 +578,5 @@ nav ul li ul li a:hover {
     .lightBox {
         display: none;
     }
-
-    /* .liLogo{
-        display: none;
-    } */
 
 }
